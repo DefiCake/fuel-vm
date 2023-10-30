@@ -27,7 +27,7 @@ pub const VM_MAX_NESTED_CALLS: usize = 64;
 pub const WORD_SIZE: usize = mem::size_of::<Word>();
 
 /// Maximum memory in MiB
-pub const FUEL_MAX_MEMORY_SIZE: u64 = 64;
+pub const FUEL_MAX_MEMORY_SIZE: u64 = 1;
 
 /// Maximum VM RAM, in bytes.
 pub const VM_MAX_RAM: u64 = 1024 * 1024 * FUEL_MAX_MEMORY_SIZE;
